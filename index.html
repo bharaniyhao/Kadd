@@ -33,6 +33,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
 </head>
 
 <body>
@@ -163,11 +164,9 @@
                         <div class="box">
                             <div class="icon"><i class="bi bi-pc-display-horizontal"></i></div>
                             <h4 class="title"><a href=""> System Development </a></h4>
-                            <p class="description">We are a leading provider of comprehensive web application development services for needs and requirements of our clients. From enterprise resource planning (ERP) to customer relationship management (CRM), we have extensive
-                                experience in developing various systems including:
-                                <bold> School management systems,Hospital management systems,Hospital management systems,Inventory management systems,Customer service systems,Billing systems,Intranet portals,Human resource systems,Payroll systems and more We
-                                    are committed to delivering high-quality, efficient, and user-friendly solutions that drive the success of your business. Whether you're looking to streamline operations, improve customer service, or optimize HR processes,
-                                    we have the expertise and experience to help you achieve your goals.</bold>
+                            <p class="description"> We offer comprehensive web application development services for various industries, including ERP, CRM, school management, hospital management, inventory management, customer service, billing, intranet portals, HR, and payroll
+                                systems. We aim to deliver high-quality, efficient, and user-friendly solutions that drive the success of clients' businesses. .</span>
+
                             </p>
                         </div>
                     </div>
@@ -176,9 +175,8 @@
                         <div class="box">
                             <div class="icon"><i class='bi bi-truck'></i></div>
                             <h4 class="title"><a href=""> Transport and Cargo Haulage </a></h4>
-                            <p class="description">Kadd Solutions is a company that specializes in bridging the gap between local, regional, and global value chains. With an unwavering commitment to social, economic, and environmental sustainability, Kadd Solutions aims to
-                                provide comprehensive guidance to the road transport industry. Our objective is to help facilitate effective and appropriate reforms that will not only improve the industry but also recognize its significance in the broader
-                                context. Kadd Solutions is dedicated to empowering businesses with the tools and resources needed to achieve success and recognition in a rapidly evolving market.</p>
+                            <p class="description">Kadd Solutions specializes in bridging the gap between local, regional, and global value chains in the road transport industry. The company is committed to social, economic, and environmental sustainability and aims to provide
+                                comprehensive guidance to the industry. Kadd Solutions empowers businesses with the tools and resources needed to achieve success and recognition in a rapidly evolving market.</p>
                         </div>
                     </div>
 
@@ -188,9 +186,8 @@
                             <div class="icon"><i class="bi bi-pencil-square"></i></div>
 
                             <h4 class="title"><a href=""> Consultancy Services </a></h4>
-                            <p class="description"> Kadd Solutions is a leading consultancy firm in Ghana that offers a comprehensive range of services, including website design and web development, web application development, e-commerce website development, and I.T training.
-                                With a team of expert professionals and a commitment to innovation and excellence, Kadd Solutions delivers high-quality results that drive business growth and success. The company is dedicated to empowering businesses and
-                                individuals with the tools and resources needed to succeed in the digital world.</p>
+                            <p class="description">Kadd Solutions is a consultancy firm in Ghana that provides a range of digital services such as website design and development, web application development, e-commerce development, and I.T training. They have an expert team
+                                and a dedication to driving business growth and success. Kadd Solutions is committed to empowering businesses and individuals in the digital world.</p>
                         </div>
                     </div>
 
@@ -216,8 +213,8 @@
             <div class="container" data-aos="fade-up">
                 <div class="section-header">
                     <h2>Our Portfolio</h2>
-                    <p>Kadd Solutions designs and develops advanced robotics systems to meet the specific needs of businesses. The company provides 24/7 support and uses cutting-edge infrastructure to solve various infrastructure-related challenges businesses
-                        may face. The goal is to enhance efficiency and performance, and drive business success through customized and innovative solutions. Kadd Solutions is dedicated to delivering results and serving as a trusted partner to businesses.
+                    <p>Kadd Solutions designs and develops advanced robotics systems to meet the specific needs of businesses. They provide 24/7 support and use cutting-edge infrastructure to solve infrastructure-related challenges. Kadd Solutions aims to
+                        enhance efficiency and performance, and drive business success through customized and innovative solutions.
                     </p>
                 </div>
 
@@ -544,7 +541,25 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
 
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
 </body>
+
+</html>
 
 </html>
